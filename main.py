@@ -3,12 +3,8 @@ import altair as alt
 from PIL import Image
 import pandas as pd
 
-print('streamlit version:', st, '\n')
-print('atlair version:', alt, '\n')
-print('PIL.Image version:', Image, '\n')
-print('pandas version:', pd, '\n')
-#image = Image.open('dna-logo.jpg')
-#st.image(image, use_column_width=True)
+image = Image.open('<You can add any relevant picture here!>')
+st.image(image, use_column_width=True)
 
 st.write("""
 # DNA Nucleotide Count Web App
